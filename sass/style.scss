@@ -17,27 +17,35 @@ body{
     min-height: 100vh;
     max-width: 1400px;
     margin: 0 auto;
+    scroll-behavior: smooth;
 }
 header{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100vw;
+    height: 200px;
+    // margin: 0 auto;
 }
 main{
     width: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    // justify-content: center;
     // margin: 0 auto;
 }
-.hero{
-    display: flex;
-    flex-direction: column;
+// .hero{
+//     display: flex;
+//     flex-direction: column;
 
-    // background-color: aqua;
-    width: 100%;
-    height: 200px;
-    justify-content: center;
-    align-items: center;
-}
+//     // background-color: aqua;
+//     width: 100%;
+//     height: 200px;
+//     justify-content: center;
+//     align-items: center;
+// }
 .hero-img{
     position: relative;
     width: 100%;
@@ -68,6 +76,7 @@ main{
     // width: 100%;
     justify-content: center;
     background-color: #555;
+    align-items: center;
 }
 .navi a{
     display: flex;
@@ -83,10 +92,11 @@ main{
     color: royalblue;
 }
 .card{
+    display: flex;
     position: relative;
     background-color: aqua;
-    width: 1000px;
-    height: 450px;
+    width: 800px;
+    height: 250px;
     margin: 50px 0;
     border-bottom-right-radius: 15px;
     border-top-left-radius: 15px;
